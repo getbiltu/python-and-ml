@@ -10,10 +10,12 @@ if(int(uin)!=rndm):
             print(":::Decrease Number:::\n")
             uin=input("Enter new Number:")
             count = count + 1
+            print("Attemped:",count)
         elif(int(uin)<rndm):
             print("::increase Number:::\n")
             uin=input("Enter new Number:\n")
             count = count + 1
+            print("Attemped:", count)
         if(int(uin)==rndm):
             print("Matched")
             print("Attemped", count)
