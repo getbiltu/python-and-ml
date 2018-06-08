@@ -1,6 +1,6 @@
 import random as rnd
 
-rndm=rnd.randint(1,99)
+rndm=rnd.randint(1,99) 
 #print(rndm)
 uin=input("Enter Gussing number:")
 count=1
