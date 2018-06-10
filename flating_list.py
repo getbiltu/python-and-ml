@@ -17,5 +17,5 @@ for i in range(0,len(multidimensional_list_in_string)):
             flatten_list.append(int(multidimensional_list_in_string[i]))
             flatten_list_index+=1#flating list index counter
 
-print("Multi Dimentional List Is:",multidimensional_list)
-print("\nFlaten List Is:",flatten_list,"\nLength Is:",len(flatten_list))
+print("Multi Dimentional List Is:", multidimensional_list)
+print("\nFlaten List Is:", flatten_list, "\nLength Is:", len(flatten_list))
