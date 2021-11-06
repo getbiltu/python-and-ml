@@ -16,7 +16,7 @@ print("""Enter:
     1)Binary To Decimal
     2)Decimal To Hex
     3)Decimal To Octal
-    4)Any Key To Exit\n""")
+    4)Any Key To Exit \n""")
 
 choice=int(input("Enter Choice : "))
 
