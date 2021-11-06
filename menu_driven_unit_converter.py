@@ -9,7 +9,7 @@ def dec_to_octal():
     print("Octal Is:",oct(int(usr_input())))
 
 def usr_input():
-    usr_in=input("Enter Number:")
+    usr_in=input("Enter Number : ")
     return usr_in
 
 print("""Enter: 
@@ -18,7 +18,7 @@ print("""Enter:
     3)Decimal To Octal
     4)Any Key To Exit\n""")
 
-choice=int(input("Enter Choice:"))
+choice=int(input("Enter Choice : "))
 
 if choice==1:
     bin_to_dec()
